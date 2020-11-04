@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Fragments -->
+    <string name="app_name">Coma Certo</string>
+    <string name="navigation_bar_list_meal">Refeições</string>
+    <string name="navigation_bar_generate_report">Relatórios</string>
+    <string name="navigation_bar_settings">Configurações</string>
+    <string name="navigation_bar_help">Ajuda</string>
+
+    <!-- Add new meal-->
+    <string name="no_meals_registered">Sem refeições cadastradas</string>
+    <string name="what_was_doing">O que estava fazendo</string>
+
+    <!-- Foods-->
+
+    <plurals name="foods_registered">
+        <item quantity="one">%d alimento registrado</item>
+        <item quantity="other">%d Alimentos registrados</item>
+    </plurals>
+    <plurals name="and_more_foods">
+        <item quantity="one" tools:ignore="ImpliedQuantity">e mais um alimento</item>
+        <item quantity="other">mais %d alimentos</item>
+    </plurals>
+    <plurals name="water_cups_consumed">
+        <item quantity="one">%d copo de água consumido</item>
+        <item quantity="other">%d copos de água consumidos</item>
+    </plurals>
+    <string name="blank"></string>
+
+    <!-- Feelings-->
+    <string name="feeling_natural">Normal</string>
+    <string name="feeling_anxiety">Ansioso</string>
+    <string name="feeling_frustration">Frustrado</string>
+    <string name="feeling_irritation">Irritado</string>
+    <string name="feeling_hurry">Com pressa</string>
+    <string name="feeling_rage">Com raiva</string>
+    <string name="feeling_boredom">Entediado</string>
+    <string name="feeling_sad">Triste</string>
+
+    <!-- Meals -->
+    <string name="meal_breakfast">Café da manhã</string>
+    <string name="meal_lunch">Almoço</string>
+    <string name="meal_snack">Lanche</string>
+    <string name="meal_dinner">Janta</string>
+    <string name="meal_candies">Guloseimas</string>
+    <string name="hungry">Fome</string>
+    <string name="hungry_level">nível de fome</string>
+    <string name="satiety">Saciedade</string>
+    <string name="satiety_level">Nível de saciedade</string>
+    <string name="add_foods">Adicionar alimentos</string>
+    <string name="meal">Refeição</string>
+    <string name="feeling">Sentimento</string>
+    <string name="delete_meal">Deletar Refeição</string>
+
+    <!-- Report -->
+    <string name="select_report_period">Selecione um período para gerar o seu relatório</string>
+    <string name="period_weekly">Semanal</string>
+    <string name="period_biweekly_1">Primeira quinzena</string>
+    <string name="period_biweekly_2">Segunda quinzena</string>
+    <string name="period_monthly">Mensal</string>
+    <string name="period_last_month">Mês passado</string>
+
+    <!-- Preferences -->
+    <string name="preference_category_reminders">Lembretes</string>
+    <string name="preferences_reminder_breakfast">Horário do café da manhã</string>
+    <string name="preferences_reminder_breakfast_summary">08:00</string>
+    <string name="preferences_reminder_lunch">Horário do almoço</string>
+    <string name="preferences_reminder_lunch_summary">12:00</string>
+    <string name="preferences_reminder_snack">Horário do lanche</string>
+    <string name="preferences_reminder_snack_summary">16:00</string>
+    <string name="preferences_reminder_dinner">Horário da janta</string>
+    <string name="preferences_reminder_dinner_summary">20:00</string>
+    <string name="generate_report">Gerar relatório</string>
+    <string name="share_report">Compartilhar relatório</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_ok_text">OK</string>
+    <string name="dialog_yes_text">Sim</string>
+    <string name="dialog_no_text">Não</string>
+    <string name="meal_successful_added_message">Refeição adicionada com sucesso</string>
+    <string name="meal_successful_edited_message">Refeição atualizada com sucesso</string>
+    <string name="meal_delete_ask_message">Deseja remover esta refeição</string>
+    <string name="error_no_meal_in_period">Não há refeições registradas no periodo informado. Por favor selecione um período diferente</string>
+    <string name="generating_meals_report">Gerando relátorio das suas refeições. Por favor, aguarde</string>
+
+    <!-- Notification chanels-->
+    <string name="meal_reminder_chanel_name">Lembretes de refeições</string>
+    <string name="meal_reminder_chanel_description">Notificações que irão lembrá-lo(a) de realizar suas refeições sempre no mesmo horário</string>
+    <string name="save">Salvar</string>
+
+    <string name="search_hint">Procurar</string>
+    <string name="search_foods">Pesquisar alimentos</string>
+    <string name="confirm">Confirmar</string>
+    <string name="my_foods">Meus Alimentos</string>
+    <string name="user_name">Nome do usuário</string>
+    <string name="preference_user_name_summary">Informe seu nome para que ele possa aparecer no seu relatório</string>
+    <string name="period_select">Selecionar Período</string>
+    <string name="period_custom">Período customizado</string>
+
+    <string name="dialog_yes">Sim</string>
+    <string name="dialog_no">Não</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="add_water">Adicionar água</string>
+    <string name="add_meal">Adicionar refeição</string>
+    <string name="new_meal">Nova refeição</string>
+    <string name="whater_quantity">Quantidade de água</string>
+    <string name="cups">Copos</string>
+    <string name="header">Header</string>
+    <string name="meals">Refeições</string>
+    <string name="consumed_water">Água consumida</string>
+    <string name="liquids">Liquidos</string>
+
+    <string name="lorem_ipsum">Lorem ipsum iaculis lobortis vivamus nibh ante interdum vel, blandit integer velit quam pellentesque donec aptent, tellus class velit primis quam proin in. tortor sagittis eros donec placerat etiam eros duis tempor, dui erat ligula vel cubilia dapibus justo lectus velit, netus donec ad urna curabitur maecenas consectetur. non tortor maecenas interdum pretium platea iaculis porta integer per, bibendum sollicitudin neque nam aptent aenean ac commodo duis turpis, taciti felis rhoncus ullamcorper lacus tortor felis odio. feugiat at quisque hac elit ut porttitor, curabitur erat sociosqu curabitur sed, congue eu justo nunc scelerisque. Praesent lorem enim quisque metus et ante, hac maecenas ornare nunc non ullamcorper, convallis quis rhoncus convallis sit. vulputate proin ultrices nam cursus fusce odio sed inceptos sodales platea mattis, elementum lobortis urna mattis auctor imperdiet venenatis cubilia dictum varius venenatis, pretium vel sagittis arcu torquent in convallis ante cursus elementum. massa ac in aptent diam arcu posuere ac, ornare ipsum laoreet phasellus porta odio, pellentesque cubilia aliquam nibh molestie consectetur. ullamcorper enim varius enim rhoncus dictum tristique ut nostra, nisl per feugiat commodo praesent augue mauris adipiscing, mi porttitor suscipit curae nunc aliquam pellentesque. Gravida tempor commodo sapien egestas sociosqu nisl porta at nostra torquent ut ante sit, porta donec consequat dui tincidunt mi sapien a aliquam in fames vehicula eleifend, ornare nisi vel nibh tempor luctus velit senectus sagittis nostra per augue. tellus nisl sollicitudin fringilla litora aliquam potenti fames metus luctus mauris aliquet, laoreet augue enim sed facilisis donec ullamcorper primis blandit luctus, a dictum suscipit ut tristique tincidunt ipsum potenti id quisque. mi tempus senectus nulla accumsan ligula commodo litora, dapibus dictumst pulvinar torquent suscipit malesuada augue, libero odio auctor luctus mauris himenaeos. Mi eleifend ligula tincidunt ultrices neque nisi, rhoncus urna vestibulum feugiat. justo porta lobortis maecenas pharetra blandit venenatis euismod, condimentum nostra aenean vivamus hac pulvinar donec tincidunt, vehicula posuere vehicula inceptos morbi aliquam. mauris dictum etiam arcu quisque ante sodales pharetra, ut risus ad ante consequat consectetur lacus molestie, fringilla eros facilisis amet inceptos tempus. ornare pellentesque facilisis class turpis donec euismod ut pellentesque tempor sagittis, gravida ultrices suscipit elementum magna dui lectus posuere nulla. ut enim porttitor hendrerit vulputate aptent senectus, placerat sagittis nostra sodales iaculis aliquam primis, potenti nibh tortor vivamus aliquam. Vel hac ornare semper rutrum faucibus eleifend leo magna, nam commodo dictumst adipiscing semper metus diam pharetra, interdum urna leo tincidunt viverra turpis sed. per massa quam rutrum feugiat vivamus leo mattis turpis lobortis, id mollis purus nibh amet fames eget faucibus, proin id iaculis elit himenaeos feugiat ut donec. venenatis tortor platea fringilla sodales nam convallis pretium sagittis, class donec duis quisque eros turpis etiam conubia, in nullam viverra sed pharetra eleifend enim. integer maecenas eros aptent fringilla morbi nullam vel aptent urna commodo, et arcu enim elementum commodo cras nisl quam auctor, leo viverra sagittis velit et nullam netus pulvinar luctus. Nulla imperdiet pretium nibh lectus tristique elit odio netus, nam turpis condimentum posuere porttitor elementum ullamcorper, curabitur arcu eu consectetur curae etiam libero. </string>
+    <string name="user_terms_and_conditions">Termos e condições de uso</string>
+    <string name="user_terms_agree_user_terms">Eu aceito os termos e condições de uso</string>
+    <string name="no_internet_connection">Sem conexão com a internet</string>
+
+    <string name="suggestions">Dúvidas ou sugestões?</string>
+    <string name="talk_with_developer">Fale com o desenvolvedor</string>
+    <!-- _-->
+    <string name="contact_email">apps.esampaio@outlook.com</string>
+    <string name="email_app_name">Aplicativo Coma Certo</string>
+    <string name="send_email">Enviar email...</string>
+    <string name="version_news">Novidades da versão</string>
+    <string name="start_use">Começar a usar</string>
+    <string name="version_news_description">Atualizações sutis na interface\nNova refeição adicionada\nmelhorias na velocidade de geração de relatório</string>
+    <string name="news">O que tem de novo</string>
+</resources>

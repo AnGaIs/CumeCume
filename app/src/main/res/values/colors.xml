@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#009688</color>
+    <color name="primary_dark">#00796B</color>
+    <color name="accent">#4CAF50</color>
+    <color name="text_error">#f44336</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="white">#FFF</color>
+
+    <color name="item_selected_color">#d7d4d4</color>
+    <color name="item_deselected_color">#FFF</color>
+
+    <color name="date_disabled">#bdbdbd</color>
+
+    <color name="dialog_alert_color">#f88e00</color>
+    <color name="dialog_loading_color">#3067f1</color>
+
+    <color name="picker_dialog_selected_date_color">#924caf50</color>
+
+</resources>
